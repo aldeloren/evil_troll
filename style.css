@@ -1,0 +1,40 @@
+#wrapper {
+	width:700px;
+	margin: 0px auto;
+	text-align: center;
+	font-family: 'Eagle Lake', cursive;
+}
+h3 {
+	font-weight: 700;
+}
+.thirds {
+	position: relative;
+	height: 300px;
+	width:233px;
+	float:left;
+}
+#green{
+	background:url("images/hero_sprite.png");
+	background-position: 0px 0px;
+}
+#red {
+	background:url("images/troll_sprite.png");
+	background-position: 0px -80px;
+}
+#battle{
+	overflow: hidden;
+}
+#battle_options button{
+	width: 60%;
+	background: #840a0a;
+	border-radius:0px;
+	font-size: .8em;
+	font-family: 'Eagle Lake', cursive;
+	color:white;
+}
+.hidden {
+	display: none;
+}
+span {
+	color:red;
+}
