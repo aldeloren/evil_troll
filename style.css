@@ -1,8 +1,9 @@
 #wrapper {
-	width:700px;
+	width:761px;
 	margin: 0px auto;
 	text-align: center;
 	font-family: 'Eagle Lake', cursive;
+	
 }
 h3 {
 	font-weight: 700;
@@ -13,13 +14,44 @@ h3 {
 	width:233px;
 	float:left;
 }
-#green{
+#green {
 	background:url("images/hero_sprite.png");
 	background-position: 0px 0px;
 }
+#green_health{
+	position:relative;
+	width:30px;
+	top:100px;;
+	font-size:.5em;
+	z-index:10;
+	float:left;
+}
+#green_health_bar{
+	width:30px;
+	height:90px;
+	border:1px solid black;
+	background: url("images/health_bar.png");
+	background-position: 0px 0px;
+}
+
 #red {
 	background:url("images/troll_sprite.png");
 	background-position: 0px -80px;
+}
+#red_health{
+	position:relative;
+	width:30px;
+	top:100px;;
+	font-size:.5em;
+	z-index:10;
+	float:left;
+}
+#red_health_bar{
+	width:30px;
+	height:90px;
+	border:1px solid black;
+	background: url("images/health_bar.png");
+	background-position: 0px 0px;
 }
 #battle{
 	overflow: hidden;
